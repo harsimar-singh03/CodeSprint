@@ -1,0 +1,21 @@
+# Dependency directories
+**/node_modules/
+
+# Production build outputs
+**/dist/
+
+# Environment configurations containing secrets (API keys, DB passes)
+**/.env
+.env
+
+# Editor / IDE configuration cache
+.qodo/
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
