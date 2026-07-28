@@ -1,6 +1,6 @@
 # CodeSprint 🚀
 
-CodeSprint is a full-stack, interactive **LeetCode Clone** designed for developers to practice programming questions. It features a compiler engine to run and submit code in multiple languages, user profile progress tracking, historical attempt reviews, and an interactive **Gemini AI Coding Assistant (via Groq Llama-3.3)** to review compiler errors and provide hints. It also includes an administrative panel for creating and validating problems.
+CodeSprint is a full-stack, interactive **LeetCode Clone** designed for developers to practice programming questions. It features a compiler engine to run and submit code in multiple languages, user profile progress tracking, historical attempt reviews, and an interactive **Llama-3.3 AI Coding Assistant (via Groq API)** to review compiler errors and provide hints. It also includes an administrative panel for creating and validating problems.
 
 ---
 
@@ -24,7 +24,7 @@ CodeSprint is a full-stack, interactive **LeetCode Clone** designed for develope
 
 * **Secure Authentication & Session Authorization**: Logins, registrations, and HTTP-only token cookies separating user and admin views.
 * **Programming Editor Workspace**: Controlled editing board supporting language selection, real-time code typing, test case dry-runs, and full compilation submissions.
-* **Gemini AI Coding Assistant (AiDrawer)**: Floating panel offering context-aware suggestions (binds active code, selected language, and run outputs to chat queries).
+* **Llama-3.3 AI Coding Assistant (AiDrawer)**: Floating panel offering context-aware suggestions (binds active code, selected language, and run outputs to chat queries).
 * **Developer User Profile**: Historical log summarizing overall solved counts, submissions volume, and detailed inspectors of code scripts submitted per solved question.
 * **Admin Control Panel**: Interface to add new problems (validating starter structures against invisible test cases), delete problems, monitor global platform logs, and register new admins.
 
